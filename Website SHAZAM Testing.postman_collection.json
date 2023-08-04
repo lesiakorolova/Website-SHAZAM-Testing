@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "91f8975b-2938-4700-b54f-69a1587d6a23",
+		"name": "Website SHAZAM Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27836417"
+	},
+	"item": [
+		{
+			"name": "shazam-songs/get-details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3e466a576amsh7d49aefeec0b530p15f9d3jsn89c0dd1421b6",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "shazam.p.rapidapi.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://shazam.p.rapidapi.com/shazam-songs/get-details?id=40333609&locale=en-US",
+					"protocol": "https",
+					"host": [
+						"shazam",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"shazam-songs",
+						"get-details"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "40333609"
+						},
+						{
+							"key": "locale",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shazam-songs/list-similarities",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "shazam.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3e466a576amsh7d49aefeec0b530p15f9d3jsn89c0dd1421b6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://shazam.p.rapidapi.com/shazam-songs/list-similarities?id=track-similarities-id-424767377&locale=en-US",
+					"protocol": "https",
+					"host": [
+						"shazam",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"shazam-songs",
+						"list-similarities"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "track-similarities-id-424767377"
+						},
+						{
+							"key": "locale",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "artists/get-top-songs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "shazam.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3e466a576amsh7d49aefeec0b530p15f9d3jsn89c0dd1421b6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://shazam.p.rapidapi.com/artists/get-top-songs?id=567072&l=en-US",
+					"protocol": "https",
+					"host": [
+						"shazam",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"artists",
+						"get-top-songs"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "567072"
+						},
+						{
+							"key": "l",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "artists/get-latest-release",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "shazam.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3e466a576amsh7d49aefeec0b530p15f9d3jsn89c0dd1421b6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://shazam.p.rapidapi.com/artists/get-latest-release?id=567072&l=en-US",
+					"protocol": "https",
+					"host": [
+						"shazam",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"artists",
+						"get-latest-release"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "567072"
+						},
+						{
+							"key": "l",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "songs/get-related-artist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-RapidAPI-Host",
+						"value": "shazam.p.rapidapi.com",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "3e466a576amsh7d49aefeec0b530p15f9d3jsn89c0dd1421b6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://shazam.p.rapidapi.com/songs/get-related-artist?id=1217912247&l=en-US",
+					"protocol": "https",
+					"host": [
+						"shazam",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"songs",
+						"get-related-artist"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1217912247"
+						},
+						{
+							"key": "l",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
