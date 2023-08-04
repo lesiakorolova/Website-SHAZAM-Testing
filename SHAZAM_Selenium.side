@@ -1,0 +1,533 @@
+{
+  "id": "24a097c9-9ed6-473e-9d9f-89b4826203d5",
+  "version": "2.0",
+  "name": "SHAZAM",
+  "url": "https://www.shazam.com",
+  "tests": [{
+    "id": "411fafc5-47c0-4064-b317-ee46087bb62b",
+    "name": "SHAZAM_tests",
+    "commands": [{
+      "id": "558e0bcd-ad9b-4e3e-8684-b1a41d536462",
+      "comment": "",
+      "command": "open",
+      "target": "/gb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f98434e-3c1e-41d2-a9cf-ec37438982a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32679fd0-9028-40c4-829c-4dd4773c516a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-apps",
+      "targets": [
+        ["css=.link-apps", "css:finder"],
+        ["xpath=//a[contains(text(),'Get the app')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/apps')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2384a80b-9640-401f-80ee-62260de1ab55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-concerts",
+      "targets": [
+        ["css=.link-concerts", "css:finder"],
+        ["xpath=//a[contains(text(),'Concerts')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/eventlist')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be75aa57-fd03-4fc0-933e-4e2c6462096e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-charts",
+      "targets": [
+        ["css=.link-charts", "css:finder"],
+        ["xpath=//a[contains(text(),'Charts')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/charts')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550a532d-e52e-4562-9df8-f7e143056aa9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.link-library",
+      "targets": [
+        ["css=.link-library", "css:finder"],
+        ["xpath=//a[contains(text(),'My Library')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/myshazam')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "059a5d69-023e-4a48-b3cf-e5236f38ad6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-library",
+      "targets": [
+        ["css=.link-library", "css:finder"],
+        ["xpath=//a[contains(text(),'My Library')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/myshazam')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "751aff2c-d7bc-4a12-9149-67e48f6b5437",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.link-library",
+      "targets": [
+        ["css=.link-library", "css:finder"],
+        ["xpath=//a[contains(text(),'My Library')]", "xpath:link"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb/myshazam')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6c21732-fd7f-41b2-ad65-31f7d088b264",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6380239c-8ee8-4385-8f07-b47621834cc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52434640-1ab7-4808-bdb8-a24ea15e0a84",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4af31f94-73ab-4f78-b0a2-138ca2a90a95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pressed .icon-loading",
+      "targets": [
+        ["css=.pressed .icon-loading", "css:finder"],
+        ["xpath=//div[@id='/home/chartlist/20/top-20/world']/div/div/div/div/div[2]/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "121f5d9c-9dbb-4d97-ab98-a8c3b9a4009b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.playing .icon-pause > .flex-reset",
+      "targets": [
+        ["css=.playing .icon-pause > .flex-reset", "css:finder"],
+        ["xpath=//div[@id='/home/chartlist/20/top-20/world']/div/div/div/div/div[2]/div[2]/span[4]/span", "xpath:idRelative"],
+        ["xpath=//span[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b54f481-0d70-4916-bb3b-a01f6d7102d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pressed img",
+      "targets": [
+        ["css=.pressed img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9d/93/ee/9d93ee11-53ed-d045-4b11-5f6f4b15f324/mzl.ztqrsgts.jpg/375x375bb.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='/home/artists/20/top-20/world']/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35210bc7-3222-4db8-a26a-6a9926cc0cad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5b56ba0-c2d2-4edc-9816-64c7345c3054",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "833a4049-38f9-4b1d-964c-c65e5f277858",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pressed .icon-loading",
+      "targets": [
+        ["css=.pressed .icon-loading", "css:finder"],
+        ["xpath=//div[@id='/home/chartlist/10/discovery/united-kingdom']/div/div/div/div/div[2]/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//section[2]/div[4]/div/div/div/div/div[2]/div[2]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "413df896-f333-48b1-b837-6eace40269d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.playing i:nth-child(1)",
+      "targets": [
+        ["css=.playing i:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='/home/chartlist/10/discovery/united-kingdom']/div/div/div/div/div[2]/div[2]/span[4]/span/i", "xpath:idRelative"],
+        ["xpath=//section[2]/div[4]/div/div/div/div/div[2]/div[2]/span[4]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf1357c7-257d-43bf-8335-cdb46a47af23",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4324.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d738b9a0-62e0-4ed4-951f-f7e6daa896e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.link-company", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='/footer']/div[2]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/company')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "818bf02c-ed6d-4e29-bf78-0892226b2fb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda2f87c-83da-4d71-a2c4-33dfb46dd60a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a333e0-0371-43bc-8c77-0bb324f7847d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5d96d3-122d-4283-87d0-68c55a5fcdc1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4396)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "188b77af-f221-4a46-9750-6ec20a1f5ff0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apps",
+      "targets": [
+        ["linkText=Apps", "linkText"],
+        ["css=.pressed", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apps')])[2]", "xpath:link"],
+        ["xpath=//div[@id='/footer']/div[2]/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/gb/apps')])[4]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ff4f50b-2237-4c9b-9923-6e97f630c60d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8555ab73-9cd2-4026-8bf4-df0354970703",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d13dfd2-ff96-45d0-9364-b000d87f85ee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "441141f0-0b9f-4315-b2f7-7fe6371f610c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4411.2001953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c0386f4-a917-4a53-a564-7fea541f0b1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ShazamKit for Developers",
+      "targets": [
+        ["linkText=ShazamKit for Developers", "linkText"],
+        ["css=.link-shazamkit", "css:finder"],
+        ["xpath=//a[contains(text(),'ShazamKit for Developers')]", "xpath:link"],
+        ["xpath=//div[@id='/footer']/div[2]/div[3]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/shazamkit/')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ShazamKit for Developers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28205c35-15f4-41c3-8139-7d30bc01e277",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.shazam.com/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe81abaf-a5be-4ac3-9655-c385924f6998",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4532.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd3d406-1ec1-479b-9b2a-38fffb1f5c01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-reset li:nth-child(1)",
+      "targets": [
+        ["css=.flex-reset li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='/footer']/div[2]/div[4]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Terms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7e206f2-8598-4415-ba20-3509c225a1ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms",
+      "targets": [
+        ["linkText=Terms", "linkText"],
+        ["css=.link-terms", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms')]", "xpath:link"],
+        ["xpath=//div[@id='/footer']/div[2]/div[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/terms')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb0a07d-5063-43a4-a3b7-3ccf04f37c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header/nodl']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ea4099-2cdd-4a7b-8a6b-f73962ac453b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a795ac15-098d-4d7c-9cbd-f20ebb037b36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.browser-link > .img-src-set-loaded",
+      "targets": [
+        ["css=.browser-link > .img-src-set-loaded", "css:finder"],
+        ["xpath=//div[@id='/apps/extension']/div/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb8c402-ff7c-474c-bfe7-3cc95279b22e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.browser-link > .img-src-set-loaded",
+      "targets": [
+        ["css=.browser-link > .img-src-set-loaded", "css:finder"],
+        ["xpath=//div[@id='/apps/extension']/div/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14357ee6-7457-4c41-a2da-e032ff8f532d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4337.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea2b9d9e-018c-4bb0-99d0-0ba031ab6bec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage Your Data",
+      "targets": [
+        ["linkText=Manage Your Data", "linkText"],
+        ["css=.link-policy", "css:finder"],
+        ["xpath=//a[contains(text(),'Manage Your Data')]", "xpath:link"],
+        ["xpath=//div[@id='/footer']/div[2]/div[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb/privacy')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage Your Data')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc26ef4a-c6dd-41b7-ae9c-0b3ff5c52697",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-logo",
+      "targets": [
+        ["css=.header-logo", "css:finder"],
+        ["xpath=//div[@id='/header']/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e323b4d-f7bd-4a53-9b37-74a4b4fb5bca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.magnifying-glass",
+      "targets": [
+        ["css=.magnifying-glass", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='HeaderSearchCombobox']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456d5ae3-8330-434f-88fa-0b522cb4653a",
+      "comment": "",
+      "command": "click",
+      "target": "id=YCPFCfXq",
+      "targets": [
+        ["id=YCPFCfXq", "id"],
+        ["linkText=gaga", "linkText"],
+        ["css=#YCPFCfXq", "css:finder"],
+        ["xpath=//a[@id='YCPFCfXq']", "xpath:attributes"],
+        ["xpath=//div[@id='NKxUTTfH']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'gaga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfdf0069-7122-4d51-93ad-31df41a979f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.magnifying-glass",
+      "targets": [
+        ["css=.magnifying-glass", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='HeaderSearchCombobox']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64eb0803-e87c-4bfa-a801-62e0dbe228e5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2df78fd1-0743-4213-ae41-ba62b9233351",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["411fafc5-47c0-4064-b317-ee46087bb62b"]
+  }],
+  "urls": ["https://www.shazam.com/"],
+  "plugins": []
+}
